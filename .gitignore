@@ -1,6 +1,4 @@
 
 *.class
 bin/homeWork/Calculator.class
-*.class
-*.class
-src/homeWork/AadharCardDetails.java
+bin/homeWork/AadharCardDetails.class
