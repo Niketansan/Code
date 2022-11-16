@@ -44,25 +44,25 @@ public class Calculator {
 	
 	}
 	
-	public static void add(int num1, int num2){
+	public  void add(int num1, int num2){
 		int result=0;
 		result = num1+num2;
 		System.out.println(result);
 	}
 	
-	public static void substract(int num1, int num2){
+	public  void substract(int num1, int num2){
 		int result=0;
 		result = num1-num2;
 		System.out.println(result);
 	}
 	
-	public static void product(int num1, int num2){
+	public  void product(int num1, int num2){
 		int result=0;
 		result = num1*num2;
 		System.out.println(result);
 	}
 	
-	public  static void divide(int num1 , int num2){
+	public  void divide(int num1 , int num2){
 		
 		int result=0;
 		result = num1/num2;
