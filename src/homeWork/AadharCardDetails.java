@@ -10,7 +10,7 @@ public class AadharCardDetails {
 			return true;
 		else
 			return false;
-	}//k
+	}
 	//name
 	public String getFullName(String firstname){
 		
