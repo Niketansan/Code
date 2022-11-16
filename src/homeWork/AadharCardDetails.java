@@ -32,7 +32,7 @@ public class AadharCardDetails {
 		else if(length<12) {
 			System.out.println("Length is less");
 			return false;
-		}kabxkbkjanxkjbn
+		}
 		return false;			
 	}
 	//mobileNumber
