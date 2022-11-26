@@ -23,7 +23,7 @@ public class Calculator {
 	}
 
 	public static void main(String[] args) {
-		int num1,num2,choice,result=0;
+		int num1,num2,choice;
 		
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println("\nChoose from the menu:\n 1.Add\n2.Subtract\n3.Product\n4.Divide\n");
