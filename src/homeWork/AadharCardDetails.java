@@ -1,7 +1,7 @@
 package homeWork;
 
 public class AadharCardDetails {
-	String firstname,secondname,address;
+	String full_name,address;
 	String aadhar_id,mobile_number;
 	int age ;
 	//age
@@ -12,9 +12,9 @@ public class AadharCardDetails {
 			return false;
 	}
 	//name
-	public String getFullName(String firstname){
+	public String getFullName(String full_name){
 		
-		return firstname.concat(secondname);
+		return full_name;
 	}
 	//aadharId
 	public boolean aadharLength(String aadhar_id) {
@@ -57,8 +57,7 @@ public class AadharCardDetails {
 		a.aadhar_id="767914583950";
 		a.age=18;
 		a.mobile_number="6281601214";
-		a.firstname="Nikhil";
-		a.secondname="Valluri";
+		a.full_name="Valluri Nikhil Sanjay";
 		a.address="23-2-17\nBhagat Singh Road\nVijayawada\n520011";
 		//age
 		boolean eligible=a.eligibleForVotingOrNot(a.age);
@@ -69,7 +68,7 @@ public class AadharCardDetails {
 			System.out.println("Not Eligible For Voting");
 		}
 		//name
-		String fullName = a.getFullName(a.firstname);
+		String fullName = a.getFullName(a.full_name);
 		System.out.println(fullName);
 		//aadharId
 		boolean validAadhar=a.aadharLength(a.aadhar_id);
